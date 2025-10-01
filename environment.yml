@@ -1,0 +1,22 @@
+name: cryprop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.10
+  - pip>=25.1.1
+  - matminer=0.9.3
+  - omegaconf=2.3.0
+  - pandas=2.2.3
+  - pymatgen=2025.5.2
+  - pyyaml=6.0.2
+  - pyzmq=26.4.0
+  - scikit-learn=1.6.1
+  - smact=3.0.2
+  - tqdm=4.67.1
+  - yaml=0.2.5
+  - pip:
+      - tensorboard==2.19.0
+      - tensorboard-data-server==0.7.2
+      - tensorflow==2.19.0
+      - wandb==0.19.11

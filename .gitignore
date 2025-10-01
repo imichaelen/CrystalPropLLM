@@ -1,0 +1,42 @@
+# Data files
+*.tar.gz
+*.pkl.gz
+*.json
+cif_*/
+wandb/
+te_*/
+*.yaml
+benchmark/
+
+# Log files and job outputs
+*.log
+*.o*
+*.e*
+runtime.log
+
+# Job scripts and temporary directories
+*.sh
+te_*/
+sub_gpt.sh
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+*.egg-info/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and outputs
+checkpoints/
+models/
+out/
+results/

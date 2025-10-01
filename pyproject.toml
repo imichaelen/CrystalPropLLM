@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crystalpropllm"
+version = "1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["crystalpropllm"]
+
+[tool.setuptools.package-data]
+crystalpropllm = ["*.txt"]
